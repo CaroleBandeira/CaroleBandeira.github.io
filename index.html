@@ -1,48 +1,330 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Créer mon portfolio pour le Bloc1</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
 
 <body>
-    <div class="matrix">
-        <div class="matrix-presentation">
-            <span>
-            Bienvenue sur mon portfolio
-            <br/>
-            Je m'appelle Carole BANDEIRA
-            <br/>
-            Je suis en BTS SIO option SLAM
-            <br/>
-            <a href="APropos.html">À propos</a>
-            <br/>
-            </span>
-            <div class="icons-container">
-                <a href="CV_2023-09-20_CAROLE_BANDEIRA.pdf" target="_blank">
-                    <img src="images\cv.png" width="40" height="40">
-                </a>
-                <br/>
-                <a href="https://www.linkedin.com/in/carole-bandeira-97a178291" target="_blank">
-                    <img src="images\linkedin.png" width="40" height="40">
-                </a>
+    <nav class="nav">
+        <a href="#accueil" class="nav-name" aria-label="homepage" aria-current="page">
+            <span>Carole BANDEIRA</span>
+        </a>
+
+        <div class="main-navlinks">
+            <button type="button" class="hamburger" aria-label="Toggle Navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navlinks-container">
+                <a href="#accueil" aria-current="page">Accueil</a>
+                <a href="#apropos">Profil</a>
+                <a href="#BTS_SIO">BTS SIO (SLAM)</a>
+                <a href="#stages">Stages</a>
+                <a href="#veille">Veille</a>
+                <a href="#competences">Compétences</a>
+                <a href="#contact">Contact</a>
             </div>
+        </div>
+
+        <div class="nav-cv-linkedin">
+            <a href="CV_2023-09-20_CAROLE_BANDEIRA.pdf">
+                <img src="icons/cv.png" class="cv-icon">
+            <a href="https://www.linkedin.com/in/carole-bandeira-97a178291" class="linkedin">
+                <img src="icons/linkedin.png" class="in-icon" alt="linkedin">
+            </a>
+        </div>
+    </nav>
+
+    <div id="accueil">
+        <img src="img/Matrix.jpg" class="image-matrix" alt="matrixJpg">
+        <div class="accueil-texte-container">
+            <span class="accueil-texte">
+                Bienvenue sur mon portfolio !
             </span>
-            <ul class="menu-list">
-                <li class="menu-item"><a href="page1.html">Gestion du patrimoine informatique</a></li>
-                <li class="menu-item"><a href="page2.html">Assistance</a></li>
-                <li class="menu-item"><a href="page3.html">Présence en ligne</a></li>
-                <li class="menu-item"><a href="page4.html">Mode Projet</a></li>
-                <li class="menu-item"><a href="page5.html">Mise à disposition d'un service informatique</a></li>
-                <li class="menu-item"><a href="page6.html">Développement professionnel</a></li>
-                <li class="menu-item"><a href="page7.html">Compétences</a></li>
-            </ul>
-            <br/>
-            <img src="images/Matrix.jpg" alt="arrierePlan" class="background-image" />
+        </div>
+    </div>
+    <div id="apropos">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="body-home">
+            <p class="titres-menu">Qui suis-je ?</p>
+            <div class="apropos">
+                <table>
+                    <tr>
+                        <td> <img src="img/carotoon.jpg" class="image-cartoon" alt="cartoon"></td>
+                        <td>
+                            
+                            <div class="text-items">
+                                <p>Bonjour et bienvenue sur mon portfolio !</p>
+                                <br>
+                                <p>Je m'appelle Carole et je suis en pleine reconversion professionnelle. Après 16 ans
+                                    en tant que secrétaire administrative, j'ai décidé de suivre ma passion pour le
+                                    développement informatique. Actuellement étudiante en BTS SIO option SLAM, cette
+                                    transition a été inspirante et gratifiante.
+
+                                    Mon expérience antérieure m'a dotée de compétences en organisation et communication,
+                                    des atouts précieux dans ma nouvelle carrière de développeuse. Je suis convaincue
+                                    que cette combinaison avec ma formation actuelle me permettra de créer des solutions
+                                    logicielles innovantes.
+
+                                    J'adore le processus de création et de résolution de problèmes qu'offre le
+                                    développement informatique. Chaque projet est une opportunité d'apprentissage et de
+                                    croissance. Passionnée, déterminée et enthousiaste, je suis ouverte aux
+                                    collaborations et nouveaux défis.
+
+                                    N'hésitez pas à consulter mon portfolio pour découvrir mes projets.</p>
+                                
+                                <p>Merci de votre visite !</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
-    </div> 
+
+        </div>
+    </div>
+
+    <div id="BTS_SIO">
+        <br><br><br><br><br><br><br><br><br>
+        <p class="titres-menu">BTS SIO option SLAM</p>
+        <br>
+        <div class="text-items">
+            <h2>GRETA COTES D'ARMOR</h2>
+            <p>Le BTS SIO option SLAM du Greta-Côtes d'Armor est une formation intensive d'un an axée sur le
+                développement informatique. Les stagiaires acquièrent des compétences pour devenir des développeurs
+                qualifiés, capables de participer au cycle de vie des applications logicielles.
+
+                La formation couvre divers domaines, dont les fondamentaux de l'informatique, le développement sur
+                différents environnements, et la cybersécurité. Les diplômés sont préparés à travailler dans des
+                entreprises variées, des PME aux ESN et DSI.
+
+                Le programme forme les étudiants à l'installation, l'administration et la sécurisation des équipements
+                informatiques, ainsi qu'à la gestion des infrastructures systèmes et réseaux. Ils apprennent également à
+                fournir un support aux utilisateurs, sécuriser des solutions applicatives, rédiger de la documentation
+                technique, et réagir face aux incidents de sécurité.
+
+                En somme, le BTS SIO option SLAM offre une formation complète pour réussir dans le développement
+                informatique et répondre aux besoins des entreprises en matière de services informatiques.
+            </p>
+            <a class="lien-Greta" href="https://greta-bretagne.ac-rennes.fr/portail/share/3872635375475683593">Lien BTS
+                SIO (SLAM) - Site du Greta</a>
+            <br>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>      
+    <div id="stages"> <br><br><br><br><br></div>
+            <p class="titres-menu">Stages</p>
+            <br>
+            <div class="text-items">
+                <div class="stages">
+                    <table>
+                        <tr>
+                            <td>
+                <h2>SYS.VISION</h2>
+                <p>Au cours de mon stage de six semaines, j'ai eu l'opportunité de me consacrer à un projet captivant :
+                    la conception d'un programme de test Enlightn de WAF sur Laravel. Ce projet m'a permis d'explorer en
+                    profondeur les technologies et les concepts clés du développement informatique.
+
+                    Le WAF Checker que j'ai développé était destiné à être intégré à un outil de production, offrant
+                    ainsi une solution robuste pour tester la sécurité des applications Laravel par rapport aux attaques
+                    de type Web Application Firewall (WAF). Ce défi technique m'a permis de mettre en pratique mes
+                    compétences acquises en BTS SIO SLAM tout en élargissant mes connaissances dans le domaine de la
+                    sécurité informatique.
+
+                    Pour mener à bien ce projet, j'ai utilisé diverses technologies, notamment Laravel, un framework PHP
+                    populaire, ainsi que Enlightn, une bibliothèque de tests de sécurité pour les applications Laravel.
+                    J'ai également eu l'occasion d'explorer des concepts avancés tels que la manipulation des requêtes
+                    HTTP, la gestion des sessions utilisateur et la sécurisation des données sensibles.
+
+                    Travailler sur le WAF Checker a été une expérience enrichissante qui m'a permis de perfectionner mes
+                    compétences en programmation, de développer mon esprit analytique et de renforcer ma compréhension
+                    des meilleures pratiques en matière de sécurité des applications web.
+
+                    Ce projet m'a également permis de découvrir le potentiel des technologies open-source et leur
+                    capacité à résoudre des problèmes complexes de manière efficace et innovante.
+
+                    Je suis reconnaissante d'avoir eu l'opportunité de participer à ce projet stimulant et enrichissant,
+                    qui a contribué à renforcer ma passion pour le développement informatique et ma détermination à
+                    exceller dans ce domaine en évolution constante.</p>
+                </td>
+                
+                <td>
+                <h2>STEPHANO</h2>
+                <p>Durant un stage de quatre semaines au sein de l'entreprise Stéphano, j'ai eu l'opportunité d'explorer
+                    une nouvelle technologie passionnante en développement front-end : Flutter, avec le langage Dart.
+
+                    Mon rôle principal consistait à prendre en charge le développement du front-end de l'application de
+                    l'entreprise. À partir des maquettes réalisées sur Figma et en respectant la charte graphique
+                    définie, j'ai travaillé sur la création d'une interface utilisateur intuitive et attrayante.
+
+                    La découverte de Flutter et de Dart a été une expérience enrichissante. Flutter, avec sa capacité à
+                    créer des interfaces utilisateur fluides et réactives sur différentes plateformes, m'a permis de
+                    donner vie aux designs avec une grande efficacité. Le langage Dart, quant à lui, s'est révélé
+                    puissant et flexible, facilitant la mise en œuvre des fonctionnalités et la gestion de l'état de
+                    l'application.
+
+                    Travailler sur le front-end de l'application de Stéphano m'a permis de mettre en pratique mes
+                    compétences en développement web et de découvrir de nouvelles techniques pour améliorer l'expérience
+                    utilisateur. J'ai également eu l'occasion de collaborer étroitement avec d'autres membres de
+                    l'équipe pour intégrer harmonieusement le front-end avec le back-end de l'application.
+
+                    Ce stage m'a offert une expérience précieuse dans le domaine du développement front-end, renforçant
+                    ma passion pour la création d'interfaces utilisateur élégantes et fonctionnelles. Je suis
+                    reconnaissante envers l'équipe de Stéphano pour leur accueil chaleureux, leur mentorat et les
+                    opportunités d'apprentissage qu'ils m'ont offertes. Ce stage a été une étape importante dans mon
+                    parcours de reconversion professionnelle vers le développement informatique, et il a renforcé ma
+                    passion et mon engagement envers ce domaine fascinant.</p>
+                </td>
+                </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="veille">
+                <br><br><br><br><br><br>
+                <p class="titres-menu">Veille</p>
+                <br>
+                <div class="text-items">
+
+                    <p>La veille technologique est un processus essentiel dans le domaine de l'informatique et des
+                        nouvelles technologies. Elle consiste à se tenir constamment informé des dernières avancées, des
+                        tendances émergentes et des nouveautés dans le secteur.</p>
+
+                    <p>Sources d'information générale :</p>
+                    <ul>
+                        <li>Presse généraliste : fournit une vue d'ensemble des tendances technologiques et des grandes
+                            innovations.</li>
+                        <li>Forums en ligne : tels que Reddit, Stack Overflow, et LinkedIn, pour poser des questions,
+                            échanger des conseils et partager son expertise.</li>
+                        <li>Plateformes de formation en ligne : YouTube, OpenClassroom, Udemy, et GitHub offrent des
+                            tutoriels, des cours et des ressources pratiques.</li>
+                    </ul>
+
+                    <p>Sources spécialisées en informatique :</p>
+                    <ul>
+                        <li>Presse spécialisée : Linux Mag, 01net, pour des articles approfondis, des tests et des
+                            comparatifs de produits.</li>
+                        <li>Sites web spécialisés : 01net, Le Journal du Net, 2D Net, pour des actualités, des tutoriels
+                            et des analyses.</li>
+                        <li>Blogs d'experts : offrent des informations, des analyses et des opinions sur des sujets
+                            spécifiques.</li>
+                    </ul>
+
+                    <p>Sources de cybersécurité :</p>
+                    <ul>
+                        <li>Sites gouvernementaux : ANSSI, CNIL, pour des informations sur les menaces émergentes, les
+                            bonnes pratiques et les réglementations.</li>
+                        <li>Fabricants et éditeurs de logiciels : publient des rapports, des études et des annonces
+                            officielles sur les développements technologiques.</li>
+                    </ul>
+
+                    <p>Outils de gestion de l'information :</p>
+                    <ul>
+                        <li>Notion : pour enregistrer les informations pertinentes, les articles à lire ultérieurement
+                            et les ressources à revisiter.</li>
+                    </ul>
+
+                    <p>En adoptant une approche proactive et organisée, il est possible de tirer pleinement parti de ces
+                        ressources pour rester à jour et compétitif dans un environnement en constante évolution.</p>
+                        <br><br><br>
+                </div>
+            </div>
+            <br><br><br>
+                <div id="competences"><br><br><br><br>
+                    <p class="titres-menu">Compétences</p><br><br>
+                    <div class="container-competences">
+                        <a class="icons-competences">
+                        <p> les IDE</p>
+                        <img src="icons/brand-vscode.svg" class="icon-competences" alt="vsc" title="Virtual Studio Code">
+                        <img src="icons/androidstudio.svg" class="icon-competences" alt="androidStudio" title="Android Studio">
+                        <img src="icons/pycharm.svg" class="icon-competences" alt="pycharm" title="Pycharm">
+
+                        <br>
+                        <p> les frameworks</p>
+                        <img src="icons/symfony.svg" class="icon-competences" alt="symfony" title="Symfony">
+                        <img src="icons/laravel.svg" class="icon-competences" alt="laravel" title="Laravel">
+                        <img src="icons/flutter.svg" class="icon-competences" alt="flutter" title="Flutter">
+                        <br>
+                        <p> les Systèmes d'exploitation</p>
+                        <img src="icons/windows.svg" class="icon-competences" alt="windows" title="Windows">
+                        <img src="icons/ubuntu.svg" class="icon-competences" alt="ubuntu" title="Ubuntu">
+                        <img src="icons/virtualbox.svg" class="icon-competences" alt="virtualBox" title="Virtual Box">
+                        <br>
+                        <p> Base de données</p>
+                        <img src="icons/phpmyadmin.svg" class="icon-competences" alt="phpMyAdmin" title="php MyAdmin">
+                        <img src="icons/sql.svg" class="icon-competences" alt="sql" title="SQL">
+                        <img src="icons/mysql.svg" class="icon-competences" alt="workbench" title="Workbench">
+                        <br>
+                        <p> les langages</p>
+                        <img src="icons/php.svg" class="icon-competences" alt="php" title="php">
+                        <img src="icons/language-csharp.svg" class="icon-competences" alt="cSharp" title="C#">
+                        <img src="icons/html-5-logo.svg" class="icon-competences" alt="html" title="html">
+                        <img src="icons/css3.svg" class="icon-competences" alt="css" title="css">
+                        <img src="icons/javascript-js-square.svg" class="icon-competences" alt="js" title="javascript">
+                        <img src="icons/dart.svg" class="icon-competences" alt="dart" title="dart">
+                        <img src="icons/logo-python.svg" class="icon-competences" alt="python" title="python">
+                        <br>
+                        <p> les appli de Web Design</p>
+                        <img src="icons/figma-logo.svg" class="icon-competences" alt="figma" title="Figma">
+
+                        <img src="icons/invision.svg" class="icon-competences" alt="inVision" title="inVision">
+                        <br>
+                        <p> Git</p>
+                        <img src="icons/github.svg" class="icon-competences" alt="github" title="Github">
+                        <img src="icons/logo-gitlab.svg" class="icon-competences" alt="gitlab" title="Gitlab">
+                        </a>
+                        
+                    </div>
+                    <br><br><br>
+                </div>
+
+
+
+                    <div id="contact">
+                        <p class="titres-menu">Contact</p>
+                        <br>
+                    </div>
+                    <div class="container-contact">
+                        <table class="table-contact">
+                            <tr>
+
+                                <td class="td">Par téléphone</td>
+                                <td class="td">Par email</td>
+                            </tr>
+                            <tr>
+
+                                <td class="td">+33 06.12.34.56.78.</td>
+                                <td class="td">carole.bandeira.lie@gmail.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br><br><br><br><br><br>
+                
+            
+
+
+
+<footer class="footer-bar">
+    <div>
+        <div>Copyright © 2024 CaroleBandeira</div>
+            <p>
+                <span>All Rights Reserved | </span>
+                <a href="terms_and_conditions.html">Terms and Conditions</a>
+                <span> | </span>
+                <a href="privacy_policy.html">Privacy Policy</a>
+            </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
