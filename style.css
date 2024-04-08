@@ -55,7 +55,7 @@ nav {
   position: absolute;
   top: 25%;
   left: 0;
-  width: 100%; 
+  width: 100%;
   justify-content: center;
 }
 
@@ -78,20 +78,25 @@ nav {
     display: flex;
     position: fixed;
   }
+
   .nav-name {
     order: 2;
     margin: 0 auto;
   }
+
   .nav-name span {
     font-size: 30px;
   }
+
   .main-navlinks {
     order: 1;
     width: auto;
   }
+
   .accueil-texte-container {
     top: 10%;
   }
+
   .accueil-texte {
     font-size: 50px;
   }
@@ -101,10 +106,12 @@ nav {
   .nav-name span {
     font-size: 30px;
   }
+
   .cv-icon {
     width: 20px;
     margin-right: 15px;
   }
+
   .in-icon {
     width: 20px;
     margin-right: 15px;
@@ -118,7 +125,7 @@ nav {
   display: none;
 }
 
-.navlinks-container ::before{
+.navlinks-container ::before {
   margin-left: 40%;
 }
 
@@ -147,7 +154,7 @@ nav {
 
 .navlinks-container a:hover::after {
   transform: scaleX(1);
-} 
+}
 
 .nav-cv-linkedin {
   margin-left: auto;
@@ -164,6 +171,7 @@ nav {
     align-items: center;
     position: relative;
   }
+
   .hamburger span {
     display: block;
     width: 100%;
@@ -173,26 +181,33 @@ nav {
     pointer-events: none;
     transition: opacity 0.3s 0.15s ease-out;
   }
+
   .hamburger span:nth-child(1),
   .hamburger span:nth-child(3) {
     transition: transform 0.3s ease-out;
   }
+
   .hamburger span:nth-child(1) {
     transform: translateY(7px);
   }
+
   .hamburger span:nth-child(3) {
     transform: translateY(-7px);
   }
+
   .hamburger.open span:nth-child(1) {
     transform: translate(0) rotate(135deg);
   }
+
   .hamburger.open span:nth-child(2) {
     opacity: 0;
     transition: opacity 0s ease-out;
   }
+
   .hamburger.open span:nth-child(3) {
     transform: translate(0) rotate(-135deg);
   }
+
   .navlinks-container {
     display: flex;
     flex-direction: column;
@@ -206,13 +221,16 @@ nav {
     padding: 15px 50px 15px 20px;
     border-right: 1px solid rgb(0, 180, 0);
   }
+
   .open {
     transform: translate(0%);
   }
+
   .navlinks-container a {
     font-size: 18px;
     margin: 10px 0px;
   }
+
   .nav-cv-linkedin {
     order: 3;
     margin-left: 0;
@@ -233,13 +251,13 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  padding:25px 25px;
+  padding: 25px 25px;
   background: black;
   bottom: 0;
 }
 
 .body-home {
- margin-top: -110px;
+  margin-top: -110px;
   z-index: 0;
 }
 
@@ -259,7 +277,7 @@ nav {
   font-size: 50px;
   padding: 0 40px;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgb(0,180,0);
+  text-shadow: 2px 2px 4px rgb(0, 180, 0);
 }
 
 .container-contact {
@@ -272,34 +290,34 @@ nav {
 
   width: 150px;
   height: auto;
-   display: grid
+  display: grid
 }
 
 @media (max-width: 900px) {
   .image-cartoon {
     width: 150px;
-    height:auto;
+    height: auto;
   }
 }
 
 .container-contact .table-contact {
-  margin:auto;
+  margin: auto;
   grid-column-gap: 25%;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
   border-collapse: separate;
-  border: 1px solid black; 
-  background: linear-gradient(rgb(0, 180, 0),rgb(99, 179, 99));
+  border: 1px solid black;
+  background: linear-gradient(rgb(0, 180, 0), rgb(99, 179, 99));
 }
 
 .container-contact .td {
   width: 25%;
   padding: 10px;
-  border: 1px solid black; 
+  border: 1px solid black;
   color: black;
   font-weight: bold;
-  background: linear-gradient(rgb(0, 180, 0),rgb(1, 55, 6));
-  text-shadow: 2px 2px 4px rgb(99, 179, 99); 
+  background: linear-gradient(rgb(0, 180, 0), rgb(1, 55, 6));
+  text-shadow: 2px 2px 4px rgb(99, 179, 99);
 }
 
 .lien-Greta {
@@ -307,8 +325,8 @@ nav {
 }
 
 .container-competences {
-  margin:auto;
-  background: linear-gradient(90deg,rgb(0, 180, 0),rgb(1, 55, 6));
+  margin: auto;
+  background: linear-gradient(90deg, rgb(0, 180, 0), rgb(1, 55, 6));
   color: black;
   position: relative;
   border-radius: 1%;
@@ -319,11 +337,11 @@ nav {
 .icon-competences {
   cursor: pointer;
   width: 34px;
-  margin-right: 15px;  
+  margin-right: 15px;
 }
 
 .stages {
-flex-direction: column;
+  flex-direction: column;
 }
 
 .stages td {
@@ -333,8 +351,8 @@ flex-direction: column;
 
 @media (max-width: 900px) {
   .stages td {
-    width: auto; 
-    display: block; 
-    padding: 20px; 
+    width: auto;
+    display: block;
+    padding: 20px;
   }
 }
